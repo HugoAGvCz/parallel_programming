@@ -64,7 +64,7 @@ def main():
     # Crear el arreglo original en el proceso principal
     if rank == 0:
         # Modificar el número de elementos para probar con diferentes tamaños
-        num_elements = 9000 
+        num_elements = 500 
         array = [random.randint(-100, 100) for _ in range(num_elements)] 
         print("Arreglo original:", array)
 
